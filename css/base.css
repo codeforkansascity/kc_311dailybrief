@@ -168,11 +168,17 @@ li.capitalize {
   right: 0;
 }
 
+/* footer links 
+a smaller area 20% margins and 10% margin
+on the right and left side should push 
+these links together in a horizontal line
+*/
+
 .col-md-12 {
- left: 50;
- right:50;
- margin-left: 10px;
- margin-right: 10px;
+ left: 20;
+ right: 20;
+ margin-left: 10%;
+ margin-right: 10%;
  height: %40;
  width: %60;
 }
