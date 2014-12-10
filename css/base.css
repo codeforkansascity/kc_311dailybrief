@@ -168,11 +168,12 @@ li.capitalize {
   right: 0;
 }
 
-#col-md-12 {
+.col-md-12 {
  left: 50;
  right:50;
  margin-left: 10px;
  margin-right: 10px;
+ height: %40;
  width: %60;
 }
 
