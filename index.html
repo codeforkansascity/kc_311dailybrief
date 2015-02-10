@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+  <!-- Basic Page Needs
+  ================================================== -->
+  <meta charset="utf-8">
+  <title>311 Daily Brief - Kansas City</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <!-- Mobile Specific Metas
+  ================================================== -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- CSS
+  ================================================== -->
+  <link rel="stylesheet" href="css/base.css">
+
+  <!-- Favicons
+  ================================================== -->
+
+
+  <!-- Leaflet
+  ================================================== -->
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.css" />
+</head>
+<body>
+
+
+
+  <!-- Primary Page Layout
+  ================================================== -->
+<header>
+  <a href=""><img src="images/daily_brief.png"></a>
+</header>
+
+<div id="map"></div>
+
+<div id="legend">
+
+  <section id="legend-info">
+    <h1>Kansas City</h1>
+    <!-- Changing the contents of the p tag will not change the tag file. 
+         Go instead to the config file to change the text. -->
+    <p></p>
+  </section>
+
+  <section id="legend-newly-opened" class="legend-status active">
+    <h1>Opened Yesterday</h1>
+    <p><span class="value">0</span> requests</p>
+  </section>
+
+  <section id="legend-newly-closed" class="legend-status active">
+    <h1>Closed Yesterday</h1>
+    <p><span class="value">0</span> requests</p>
+  </section>
+  
+</div>
+
+  <!-- JS
+  ================================================== -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.js"></script>
+  <script src="js/kc_311_map.js"></script>
+  
+
+<!-- End Document
+================================================== -->
+</body>
+</html>
